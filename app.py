@@ -83,7 +83,7 @@ prompt='''You are an expert in resume analysis and job matching. Your role is to
         - Provide specific next steps for improvement.  
     '''
 
-api_key=st.secrets["GOOGLE_API_KEy"]
+api_key=st.secrets["GOOGLE_API_KEY"]
 
 def get_response(resume,job_description):
     # genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
