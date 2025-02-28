@@ -45,3 +45,4 @@ apscheduler
 python-multipart
 flask-restful
 flask
+google-generativeai
